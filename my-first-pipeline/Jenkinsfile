@@ -9,11 +9,4 @@ pipeline {
       }
     }
   }
-  stages {
-    stage('deploy') {
-      steps {
-        sh 'python 3'
-      }
-    }
-  }
 }
